@@ -16,6 +16,7 @@ public class ExamResultFieldSetMapper implements FieldSetMapper<ExamResult>{
 		result.setDob(new LocalDate(fieldSet.readDate(1,"dd/MM/yyyy")));
 		result.setPercentage(fieldSet.readDouble(2));
 
+		result.setStudentNameModifique(fieldSet.readString(0) + "esta aprovado");
 
 		return result;
 	}

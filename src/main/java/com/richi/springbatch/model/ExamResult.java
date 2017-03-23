@@ -12,7 +12,16 @@ public class ExamResult {
 	private double percentage;
 	
 	
+	private String studentNameModifique;
 
+	public String getStudentNameModifique() {
+		return studentNameModifique;
+	}
+	public void setStudentNameModifique(String studentNameModifique) {
+		this.studentNameModifique = studentNameModifique;
+	}
+
+	
 	
 	public String getStudentName() {
 		return studentName;
